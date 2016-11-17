@@ -1,0 +1,16 @@
+
+{% for feature in site.features %}
+  {% if feature.page_id == "introduction" %}
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <hr class="light">
+                    <div class='text-faded'>{{ feature.content }}</div>
+                </div>
+            </div>
+        </div>
+    </section>
+  {% endif %}
+{% endfor %}
