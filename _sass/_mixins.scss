@@ -1,3 +1,4 @@
+
 @mixin transition-all()
 {
     -webkit-transition: all 0.35s;
@@ -55,9 +56,13 @@
 	}
 }
 
+
 @mixin sans-serif-font()
 {
-	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	// font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: Roboto, sans-serif;
+
+
 }
 
 @mixin serif-font()

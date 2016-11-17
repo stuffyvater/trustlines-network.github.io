@@ -33,12 +33,44 @@
 //     }
 // }
 
+// images
+$header-image-path: url('../img/fd12e156020136463d38281ae600f465.jpeg');
+
 // variables.less
-$theme-primary: #F05F40;
-$theme-dark: #222;
+$red-lighten-5: #ffebee;
+$red-lighten-4: #ffcdd2;
+$red-lighten-5: #ffebee;
+$red-lighten-3: #ef9a9a;
+$red-lighten-2: #e57373;
+$red-lighten-1: #ef5350;
+$red: #f44336 red;
+$red-darken-1: #e53935;
+$red-darken-2: #d32f2f;
+$red-darken-3: #c62828;
+$red-darken-4: #b71c1c;
+$red-accent-1: #ff8a80;
+$red-accent-2: #ff5252;
+$red-accent-3: #ff1744;
+$red-accent-4: #d50000;
+
+$blue-grey-lighten-5:#eceff1;
+$blue-grey-lighten-4: #cfd8dc;
+$blue-grey-lighten-3: #b0bec5 ;
+$blue-grey-lighten-2: #90a4ae;
+$blue-grey-lighten-1: #78909c;
+$blue-grey: #607d8b;
+$blue-grey-darken-1: #546e7a;
+$blue-grey-darken-2: #455a64;
+$blue-grey-darken-3: #37474f;
+$blue-grey-darken-4: #263238;
+
+$theme-primary: $red-lighten-1;
+// $theme-dark: #222;
+$theme-dark: $blue-grey-darken-2;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "mixins",
-        "base"
+        "base",
+        url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i')
 ;
