@@ -34,8 +34,7 @@
 // }
 
 // images
-$header-image-path: url('../img/NasaNorway.jpg');
-
+$header-image-path: url('../img/uyuni.jpg');
 
 // variables.less
 $red-lighten-5: #ffebee;
@@ -65,9 +64,9 @@ $blue-grey-darken-2: #455a64;
 $blue-grey-darken-3: #37474f;
 $blue-grey-darken-4: #263238;
 
-$theme-primary: $$blue-grey-darken-2; /* primary colors and its red */
+$theme-primary: $red-lighten-1; /* primary colors and its red */
 // $theme-dark: #222; 
-$theme-dark: red-lighten-1; /*background color */
+$theme-dark: $blue-grey-darken-2; /*background color */
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
