@@ -10,5 +10,7 @@ github_username:
 
 collections:
   - features
+  - services
+  - applications
 # Build settings
 markdown: kramdown

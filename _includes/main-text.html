@@ -1,0 +1,34 @@
+
+
+    <section class="bg-primary" id="main-text">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Applications</h2>
+                    <hr class="light">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            {% for app in site.applications %}
+              {% assign itermodulo = forloop.index0 | modulo: 2 %}
+
+              {% if forloop.index0 == 0 %}
+                <div class="row">
+              {% endif %}
+
+              {% if itermodulo == 0 %}
+                {% if forloop.index0 != 0 %}
+                  </div>
+                  <div class="row">
+                {% endif %}
+              {% endif %}
+
+              <div class="col-lg-6 text-left">
+                  <h3 class="text-center">{{ app.heading }}</h3>
+                  <p>{{ app.content }}</p>
+              </div>
+
+            {% endfor %}
+        </div>
+    </section>
