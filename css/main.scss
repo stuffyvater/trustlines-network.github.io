@@ -34,7 +34,9 @@
 // }
 
 // images
-$header-image-path: url('../img/empower.png');
+$header-image-path: url('../img/coverphoto.png');
+$header-font-image-path: url('../img/trustlines_network.png');
+$unicorn-logo-path: url('../img/Head-LOGO.svg');
 
 // variables.less
 $red-lighten-5: #ffebee;
@@ -65,7 +67,7 @@ $blue-grey-darken-3: #37474f;
 $blue-grey-darken-4: #263238;
 
 $theme-primary: $red-lighten-1; /* primary colors and its red */
-// $theme-dark: #222; 
+// $theme-dark: #222;
 $theme-dark: $blue-grey-darken-2; /*background color */
 
 // Import partials from `sass_dir` (defaults to `_sass`)
