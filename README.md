@@ -5,7 +5,7 @@ platform for hosting currency networks
 representing real-world obligations
 
 
-In laymen's terms, the Trustlines Network is the original Ripple Pay on the Ethereum. Using IOUs on the social graph can be effectively used to create fungible money and facilitate payments between non-trusting participants on a global scale
+In laymen's terms, the Trustlines Network is the original Ripple Pay on the Ethereum. Using IOUs on the social graph can be effectively used to create fungible money and facilitate payments between non-trusting participants on a global scale.
 
 This is just a landing page that gives you a basic introduction to the application. Read our white paper or check our social channels to learn more
 
