@@ -1,0 +1,25 @@
+
+
+
+
+          <!-- have to be updated manually! -->
+          {% assign categories = "General, Getting started" | split: ", " %}
+          {% for category in categories %}
+          <section {% cycle 'class="bg-dark"', '' %} id="main-text">
+          <div class="container ">
+          <div class="col-lg-12 text-center">
+            <h2> {{ category }} </h2>
+            <hr {% cycle 'class="light"', 'class="dark"' %}>
+          </div>
+            {% for faq in site.faq %}
+              {% if category == faq.category %}
+                <div>
+                  <h3> {{ faq.question }} </h3>
+                  {{ faq.content }}
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+            </section>
+        {% endfor %}
