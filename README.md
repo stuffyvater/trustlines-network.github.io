@@ -1,14 +1,12 @@
-# Creative Theme for Jekyll
+# Trustlines Network 
 
-A Jekyll implementation of the [Creative Theme](http://startbootstrap.com/template-overviews/creative/) template by [Start Bootstrap](http://startbootstrap.com).
+The Trustlines Network is the first open permissionless
+platform for hosting currency networks
+representing real-world obligations
 
-Creative is a one page Bootstrap theme for creatives, small businesses, and other multipurpose uses.
-The theme includes a number of rich features and plugins that you can use as a great boilerplate for your next Jekyll project! 
 
-See it live in action at <https://volny.github.io/creative-theme-jekyll/>
+In laymen's terms, the Trustlines Network is the original Ripple Pay on the Ethereum. Using IOUs on the social graph can be effectively used to create fungible money and facilitate payments between non-trusting participants on a global scale.
 
-## To use the Creative Theme template in your project
+This is just a landing page that gives you a basic introduction to the application. 
 
-- Start by adding your info in `_config.yml`
-- In `_layouts/front.html` reorder or remove section as you prefer.
-
+Made using Jekyll Pages
