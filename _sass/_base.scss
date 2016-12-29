@@ -36,6 +36,7 @@ h6 {
     @include sans-serif-font;
 }
 
+//li, // this will change the navbar behaviour
 p {
     font-size: 16px;
     line-height: 1.5;
@@ -69,6 +70,23 @@ aside {
 
 // Navigation
 
+.navbar{
+  min-height:70px; //change to desired height
+}
+
+.navbar-collapse{
+  min-height:70px; //change to desired height
+}
+
+.navbar-right{
+  min-height:70px; //change to desired height
+}
+
+
+.navbar-toggle{
+    padding-top: 15px;
+}
+
 .navbar-default {
     background-color: white;
     border-color: rgba($theme-dark, .5);
@@ -90,7 +108,7 @@ aside {
             > a:focus {
                 text-transform: uppercase;
                 font-weight: 700;
-                font-size: 13px;
+                font-size: 20px;
                 color: $theme-dark;
                 &:hover {
                     color: $theme-primary;
@@ -125,20 +143,30 @@ aside {
                 color: white;
             }
         }
+        //remove `affix-top` to change to transparent behaviour
+        &.affix-top,
         &.affix {
             background-color: white;
             border-color: rgba($theme-dark, .5);
             .navbar-header .navbar-brand {
                 color: $theme-primary;
-                font-size: 14px;
+                font-size: 50px;
                 &:hover,
                 &:focus {
                     color: darken($theme-primary, 10%);
                 }
             }
+            .nav > li {
+                height: 70px;
+            }
             .nav > li > a,
             .nav > li > a:focus {
                 color: $theme-dark;
+                height: 70px;
+                padding-top: 25px;
+                padding-right: 20px;
+                padding-left: 10px;
+                font-size: 20px;
                 &:hover {
                     color: $theme-primary;
                 }
@@ -155,7 +183,7 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: $header-image-path;
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), $header-image-path;
     text-align: center;
     color: white;
     .header-content {
@@ -170,8 +198,15 @@ header {
                 margin-top: 0;
                 margin-bottom: 0;
             }
+            h3,
+            h2 {
+                font-weight: 800;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
             hr {
                 margin: 30px auto;
+                max-width: 250px;
             }
             p {
                 font-weight: 300;
@@ -214,8 +249,11 @@ header {
 .service-box {
     max-width: 400px;
     margin: 50px auto 0;
+    margin-bottom: 20px;
     @media (min-width: 992px) {
         margin: 20px auto 0;
+        // remove, when glyphicons are used:
+        margin-bottom: 70px;
     }
     p {
         margin-bottom: 0;
@@ -252,7 +290,7 @@ header {
             .project-category {
                 text-transform: uppercase;
                 font-weight: 600;
-                font-size: 14px;
+                font-size: 16px;
             }
             .project-name {
                 font-size: 18px;

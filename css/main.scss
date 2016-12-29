@@ -34,7 +34,7 @@
 // }
 
 // images
-$header-image-path: url('../img/coverphoto.png');
+$header-image-path: url('../img/favela.jpeg');
 $header-font-image-path: url('../img/trustlines_network.png');
 $unicorn-logo-path: url('../img/Head-LOGO.svg');
 
@@ -57,7 +57,7 @@ $red-accent-4: #d50000;
 
 $blue-grey-lighten-5:#eceff1;
 $blue-grey-lighten-4: #cfd8dc;
-$blue-grey-lighten-3: #b0bec5 ;
+$blue-grey-lighten-3: #b0bec5;
 $blue-grey-lighten-2: #90a4ae;
 $blue-grey-lighten-1: #78909c;
 $blue-grey: #607d8b;
@@ -66,9 +66,11 @@ $blue-grey-darken-2: #455a64;
 $blue-grey-darken-3: #37474f;
 $blue-grey-darken-4: #263238;
 
+$navbar-height: 70px;
+
 $theme-primary: $red-lighten-1; /* primary colors and its red */
 // $theme-dark: #222;
-$theme-dark: $blue-grey-darken-2; /*background color */
+$theme-dark: $blue-grey-lighten-2; /*background color */
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

@@ -3,22 +3,25 @@
 
 
           <!-- have to be updated manually! -->
-          {% assign categories = "General, Getting started" | split: ", " %}
+          <!--order here determines the order on the page, TODO find method without manual assignment!-->
+          {% assign categories = "About the concept, Getting started" | split: ", " %}
           {% for category in categories %}
-          <section {% cycle 'class="bg-dark"', '' %} id="main-text">
+          <section {% cycle '', 'class="bg-dark"' %} id="main-text">
           <div class="container ">
           <div class="col-lg-12 text-center">
             <h2> {{ category }} </h2>
-            <hr {% cycle 'class="light"', 'class="dark"' %}>
+            <hr class="dark">
           </div>
+          </div>
+          <div class="container ">
             {% for faq in site.faq %}
               {% if category == faq.category %}
-                <div>
-                  <h3> {{ faq.question }} </h3>
+                <div class="col-lg-8 col-lg-offset-2 text-left">
                   {{ faq.content }}
                 </div>
               {% endif %}
             {% endfor %}
+          </div>
           </div>
         </div>
             </section>
