@@ -15,6 +15,13 @@ In short, you would prefer to take control by retaining the benefits of acting a
 You would also like to decide yourself who you are comfortable being liable to you,
 and who you would like to be liable to.
 
+## How can Trustlines be used for local circular economies?
+
+Local currencies specific to a community, offers a way to keep money circulating and increases the economic activity within the realm of the community. This is contrary to pumping international homogeneous currencies into an area, which tends to flow straight back to the source, without making any sustainable economic community impact.
+
+At the same time, communities tends to have a demand for goods or services provided by outside suppliers, which means they also needs to be able to pay in currencies that they trust and accept.
+
+This dilemma requires communities uses more than one currency which is exactly what the Trustlines Network enables. According to the prioritisation made on effectiveness and resilience, communities are empowered to customise local networks while they can also participate in interconnected networks.
 
 ## Why not just stick with regular bank issued money?
 
