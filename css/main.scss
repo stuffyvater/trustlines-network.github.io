@@ -34,9 +34,11 @@
 // }
 
 // images
-$header-image-path: url('../img/favela.jpeg');
 $header-font-image-path: url('../img/trustlines_network.png');
+$header-image-path: url('../img/background_2k.jpg');
+$header-image-path-4k: url('../img/background_4k.jpg');
 $unicorn-logo-path: url('../img/Head-LOGO.svg');
+
 
 // variables.less
 $red-lighten-5: #ffebee;
@@ -66,11 +68,12 @@ $blue-grey-darken-2: #455a64;
 $blue-grey-darken-3: #37474f;
 $blue-grey-darken-4: #263238;
 
+$chosen-blue: #305F94;
+
 $navbar-height: 70px;
 
 $theme-primary: $red-lighten-1; /* primary colors and its red */
-// $theme-dark: #222;
-$theme-dark: $blue-grey-lighten-2; /*background color */
+$theme-dark: $chosen-blue; /*background color */
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
