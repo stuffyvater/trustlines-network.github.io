@@ -16,7 +16,7 @@ You would also like to decide yourself who you are comfortable being liable to y
 and who you would like to be liable to.
 
 
-## What is wrong with regular bank issued money?
+## Why not just stick with regular bank issued money?
 
 When individuals issue credit, they are contrary to sales employees in banks, personal liable.
 Not only will friends also be more understandable if you miss a payment,
