@@ -27,6 +27,12 @@ a {
     }
 }
 
+.a-dark {
+    @extend a;
+    color: white;
+}
+
+
 h1,
 h2,
 h3,
@@ -59,13 +65,29 @@ p {
         margin-bottom: 20px;
     }
 }
-
+   //@include background-cover;
+   // //background-position: center;
+   // //linear-gradient( rgba(0, 255, 187, 1), rgba(0, 124, 83, 1) ),
+   // background: $header-image-path no-repeat center center fixed;
 .bg-image {
-    @include background-cover;
-    //background-position: center;
-    //linear-gradient( rgba(0, 255, 187, 1), rgba(0, 124, 83, 1) ),
-    background: $header-image-path no-repeat center center fixed;
-    color: white;
+    @extend .bg-dark;
+    //@include background-cover;
+    //background-image: $header-image-path fixed;
+    //background-repeat:no-repeat;
+    //background-size:100%;
+    //background-position:center;
+
+    @media (min-width: 768px) {
+        //min-height: 100%;
+        background-size: contain;
+        background: $header-image-path-2k no-repeat center center fixed;
+
+    }
+    @media (min-width: 2048px) {
+        //min-height: 100%;
+        background-size: contain;
+        background: $header-image-path-4k no-repeat center center fixed;
+    }
 }
 
 .bg-primary {
@@ -205,13 +227,19 @@ aside {
 header {
     position: relative;
     width: 100%;
-    min-height: auto;
-    @include background-cover;
+    //min-height: auto;
+    //@include background-cover;
     //background-position: center;
-    //linear-gradient( rgba(0, 255, 187, 1), rgba(0, 124, 83, 1) ),
-    background: $header-image-path no-repeat center center fixed;
+    //linear-gradient( rgba(0, 255, 187, 1), rgba(0, 124, 83, 1)
+    // ),
+    @extend .bg-dark;
     text-align: center;
     color: white;
+    .header-img {
+        max-width: 80%;
+        height: auto;
+        width: auto;
+    }
     .header-content {
         position: relative;
         text-align: center;
@@ -244,6 +272,8 @@ header {
     }
     @media (min-width: 768px) {
         min-height: 100%;
+        background-size: contain;
+        background: $header-image-path-2k no-repeat center center fixed;
         .header-content {
             position: absolute;
             top: 50%;
@@ -265,29 +295,8 @@ header {
         }
     }
     @media (min-width: 2048px) {
-        min-height: 100%;
+        //min-height: 100%;
         background: $header-image-path-4k no-repeat center center fixed;
-        .header-content {
-            position: absolute;
-            top: 50%;
-            -webkit-transform: translateY(-50%);
-            -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-            padding: 0 50px;
-            .header-content-inner {
-                max-width: 1000px;
-                margin-left: auto;
-                margin-right: auto;
-                p {
-                    font-size: 18px;
-                    max-width: 80%;
-                    margin-left: auto;
-                    margin-right: auto;
-                }
-            }
-        }
-
-
     }
 }
 
@@ -406,8 +415,15 @@ header {
 
 // Contact
 #contact .fa {
+    @extend a;
     color: $theme-dark;
     font-size: 4em;
+}
+
+#join-slack {
+    a {
+        @extend .a-dark;
+    }
 }
 
 // Extras
