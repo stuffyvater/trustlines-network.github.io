@@ -4,7 +4,8 @@
 
           <!-- have to be updated manually! -->
           <!--order here determines the order on the page, TODO find method without manual assignment!-->
-          {% assign categories = "About the concept, Getting started" | split: ", " %}
+          <!--{% assign categories = "About the concept, Getting started" | split: ", " %}-->
+          {% assign categories = "About the concept" | split: ", " %}
           {% for category in categories %}
           <section {% cycle '', 'class="bg-dark"' %} id="main-text">
           <div class="container ">
