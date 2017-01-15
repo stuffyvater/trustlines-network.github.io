@@ -7,9 +7,10 @@
   <hr class="dark">
 </div>
 </div>
-<div class="container ">
+<div class="container">
   {% for faq in site.faq %}
   {% if category == faq.category %}
+  <div class="col-lg-8 col-lg-offset-2 text-left">
     <div id="accordion" role="tablist" aria-multiselectable="true">
       <div class="card">
         <div class="card-header" role="tab" id="headingOne">
@@ -20,6 +21,7 @@
           </h5>
         </div>
         <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+          <div class="padding" style="padding-bottom: 1px">
           <div class="card-block">
             <p>
             Asking this question, you properly already have access to a bank account, credit card and/or mobile payments.
@@ -38,8 +40,10 @@
               and who you would like to be liable to.
             </p>
           </div>
+          </div>
         </div>
       </div>
+    </div>
       <div class="card">
         <div class="card-header" role="tab" id="headingTwo">
           <h5 class="mb-0">
@@ -49,12 +53,14 @@
           </h5>
         </div>
         <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="padding" style="padding-bottom: 1px" >
           <div class="card-block">
             <p>Local currencies specific to a community, offers a way to keep money circulating and increases the economic activity within the realm of the community. This is contrary to pumping international homogeneous currencies into an area, which tends to flow straight back to the source, without making any sustainable economic community impact.</p>
 
             <p>At the same time, communities tends to have a demand for goods or services provided by outside suppliers, which means they also needs to be able to pay in currencies that they trust and accept.</p>
 
             <p>This dilemma requires communities uses more than one currency which is exactly what the Trustlines Network enables. According to the prioritisation made on effectiveness and resilience, communities are empowered to customise local networks while they can also participate in interconnected networks.</p>
+          </div>
           </div>
         </div>
       </div>
@@ -67,6 +73,7 @@
           </h5>
         </div>
         <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="padding" style="padding-bottom: 1px">
           <div class="card-block">
             <p>When individuals issue credit, they are contrary to sales employees in banks, personal liable.
             Not only will friends also be more understandable if you miss a payment,
@@ -87,6 +94,7 @@
           </h5>
         </div>
         <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+          <div class="padding" style="padding-bottom: 1px">
           <div class="card-block">
             <p>The Trustlines Network can be viewed as an interconnected global network of LETSystems
             in which each subsystem is managed by a single individual.</p>
@@ -113,6 +121,7 @@
           </h5>
         </div>
         <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive">
+          <div class="padding" style="padding-bottom: 1px">
           <div class="card-block">
             <p>Trustlines is in its core inspired by the classic.ripplepay idea invented by Ryan Fugger,
             Ryan is no longer involved in Ripple, and the company has chosen to change the original peer-to-peer model
@@ -139,6 +148,7 @@
           </h5>
         </div>
         <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix">
+          <div class="padding" style="padding-bottom: 1px">
           <div class="card-block">
             <p>While the unbanked are increasingly getting smartphones,
             they still cannot get financial services because both mobile applications and traditional banks
@@ -165,6 +175,7 @@
           </h5>
         </div>
         <div id="collapseSeven" class="collapse" role="tabpanel" aria-labelledby="headingSeven">
+          <div class="padding" style="padding-bottom: 1px">
           <div class="card-block">
             <p>Trustlines currency networks can be customized according to how a community belief is the best way to deal with inflation.</p>
 
@@ -184,6 +195,7 @@
           </h5>
         </div>
         <div id="collapseEight" class="collapse" role="tabpanel" aria-labelledby="headingEight">
+          <div class="padding" style="padding-bottom: 1px">
           <div class="card-block">
             <p>First of all we are big fans of the mysterious magic Unicorn.</p>
 
@@ -208,7 +220,9 @@
 
 
 
-          <!-- have to be updated manually!
+          <!--
+          Original code:
+          have to be updated manually!
           order here determines the order on the page, TODO find method without manual assignment!
           {% assign categories = "About the concept, Getting started" | split: ", " %}
           {% assign categories = "About the concept" | split: ", " %}
