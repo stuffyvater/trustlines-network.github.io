@@ -85,8 +85,8 @@ p {
     }
     @media (min-width: 2048px) {
         //min-height: 100%;
-        background-size: cover;
-        background: $header-image-path-4k no-repeat center center fixed;
+        background-size: contain !important;
+        background: $header-image-path-4k2 no-repeat center center fixed;
     }
 }
 
@@ -104,8 +104,8 @@ p {
         background: $header-image-path-2k3 no-repeat top center fixed;
     @media (min-width: 2048px) {
             //min-height: 100%;
-            background-size: cover;
-            background: $header-image-path-4k no-repeat bottom center fixed;
+            background-size: contain !important;
+            background: $header-image-path-4k3 no-repeat bottom center fixed;
         }
     }
 
@@ -318,8 +318,8 @@ header {
     }
     @media (min-width: 2048px) {
         //min-height: 100%;
-        background-size: cover;
-        background: $header-image-path-4k no-repeat top center fixed;
+        background-size: contain !important;
+        background: $header-image-path-4k1 no-repeat top center fixed;
 
     }
 }
