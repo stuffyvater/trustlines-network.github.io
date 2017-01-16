@@ -79,15 +79,36 @@ p {
 
     @media (min-width: 768px) {
         //min-height: 100%;
-        background-size: contain;
-        background: $header-image-path-2k no-repeat center center fixed;
+        background-size: cover;
+        background: $header-image-path-2k2 no-repeat top center fixed;
 
     }
     @media (min-width: 2048px) {
         //min-height: 100%;
-        background-size: contain;
+        background-size: cover;
         background: $header-image-path-4k no-repeat center center fixed;
     }
+}
+
+.bg-image2 {
+    @extend .bg-dark;
+    //@include background-cover;
+    //background-image: $header-image-path fixed;
+    //background-repeat:no-repeat;
+    //background-size:100%;
+    //background-position:center;
+
+    @media (min-width: 768px) {
+        //min-height: 100%;
+        background-size: cover;
+        background: $header-image-path-2k3 no-repeat top center fixed;
+    @media (min-width: 2048px) {
+            //min-height: 100%;
+            background-size: cover;
+            background: $header-image-path-4k no-repeat bottom center fixed;
+        }
+    }
+
 }
 
 .bg-primary {
@@ -273,11 +294,11 @@ header {
     }
     @media (min-width: 768px) {
         min-height: 100%;
-        background-size: contain;
-        background: $header-image-path-2k no-repeat center center fixed;
+        background-size: cover;
+        background: $header-image-path-2k no-repeat top center fixed;
         .header-content {
             position: absolute;
-            top: 50%;
+            top: 60%;
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
@@ -297,7 +318,9 @@ header {
     }
     @media (min-width: 2048px) {
         //min-height: 100%;
-        background: $header-image-path-4k no-repeat center center fixed;
+        background-size: cover;
+        background: $header-image-path-4k no-repeat top center fixed;
+
     }
 }
 
