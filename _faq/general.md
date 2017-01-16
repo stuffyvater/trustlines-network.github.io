@@ -25,8 +25,8 @@ This dilemma requires communities uses more than one currency which is exactly w
 
 ## Why not just stick with regular bank issued money?
 
-When individuals issue credit, they are contrary to sales employees in banks, personal liable.
-Not only will friends also be more understandable if you miss a payment,
+When individuals issue credit, they are contrary to sales employees in banks, personally liable.
+Not only will friends also be more understanding if you miss a payment,
 they properly also know your spending habits a lot better than banks.
 We believe this incentives a higher degree of financial responsibility.
 
