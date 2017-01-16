@@ -79,7 +79,7 @@ p {
 
     @media (min-width: 768px) {
         //min-height: 100%;
-        background-size: cover;
+        background-size: contain !important;
         background: $header-image-path-2k2 no-repeat top center fixed;
 
     }
@@ -100,7 +100,7 @@ p {
 
     @media (min-width: 768px) {
         //min-height: 100%;
-        background-size: cover;
+        background-size: contain !important;
         background: $header-image-path-2k3 no-repeat top center fixed;
     @media (min-width: 2048px) {
             //min-height: 100%;
@@ -294,11 +294,11 @@ header {
     }
     @media (min-width: 768px) {
         min-height: 100%;
-        background-size: cover;
-        background: $header-image-path-2k no-repeat top center fixed;
+        background-size: contain !important;
+        background: $header-image-path-2k1 no-repeat top center fixed;
         .header-content {
             position: absolute;
-            top: 60%;
+            top: 65%;
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
