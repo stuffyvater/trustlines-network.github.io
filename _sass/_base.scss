@@ -77,7 +77,7 @@ p {
     //background-size:100%;
     //background-position:center;
 
-    @media (min-width: 768px) {
+    @media (min-width: 200px) {
         //min-height: 100%;
         background-size: cover !important;
         background: $header-image-path-2k2 no-repeat top center fixed;
@@ -98,7 +98,7 @@ p {
     //background-size:100%;
     //background-position:center;
 
-    @media (min-width: 768px) {
+    @media (min-width: 200px) {
         //min-height: 100%;
         background-size: cover !important;
         background: $header-image-path-2k3 no-repeat top center fixed;
@@ -292,7 +292,7 @@ header {
             }
         }
     }
-    @media (min-width: 768px) {
+    @media (min-width: 200px) {
         min-height: 100%;
         background-size: cover !important;
         background: $header-image-path-2k1 no-repeat top center fixed;
