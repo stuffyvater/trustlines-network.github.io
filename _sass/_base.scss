@@ -79,13 +79,13 @@ p {
 
     @media (min-width: 768px) {
         //min-height: 100%;
-        background-size: contain !important;
+        background-size: cover !important;
         background: $header-image-path-2k2 no-repeat top center fixed;
 
     }
     @media (min-width: 2048px) {
         //min-height: 100%;
-        background-size: contain !important;
+        background-size: cover !important;
         background: $header-image-path-4k2 no-repeat center center fixed;
     }
 }
@@ -100,11 +100,11 @@ p {
 
     @media (min-width: 768px) {
         //min-height: 100%;
-        background-size: contain !important;
+        background-size: cover !important;
         background: $header-image-path-2k3 no-repeat top center fixed;
     @media (min-width: 2048px) {
             //min-height: 100%;
-            background-size: contain !important;
+            background-size: cover !important;
             background: $header-image-path-4k3 no-repeat bottom center fixed;
         }
     }
@@ -294,7 +294,7 @@ header {
     }
     @media (min-width: 768px) {
         min-height: 100%;
-        background-size: contain !important;
+        background-size: cover !important;
         background: $header-image-path-2k1 no-repeat top center fixed;
         .header-content {
             position: absolute;
@@ -318,7 +318,7 @@ header {
     }
     @media (min-width: 2048px) {
         //min-height: 100%;
-        background-size: contain !important;
+        background-size: cover !important;
         background: $header-image-path-4k1 no-repeat top center fixed;
 
     }
