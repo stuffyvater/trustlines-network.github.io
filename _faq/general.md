@@ -1,5 +1,5 @@
 ---
-category: About the concept
+category: Introduction to the concept
 ---
 ## What are some of the first mover advantages for me? 
 
@@ -95,5 +95,13 @@ possibilities surrounding them, as well as offering everyone the wisdom to take 
 
 In the same fashion, The Trustlines Network seeks to enable everyone to become aware of the financial environment
 surrounding them, and provide the means for individuals, communities and businesses to become financially empowered.
+
+---
+category: Greater implications
+---
+
+---
+category: About the Trustlines Network
+---
 
 
