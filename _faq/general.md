@@ -2,7 +2,7 @@
 category: Introduction to the concept
 ---
 ---
-category: Greater Implications
+category: Greater implications
 ---
 
 ## What are some of the first mover advantages for me? 
