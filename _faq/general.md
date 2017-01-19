@@ -2,13 +2,6 @@
 category: Introduction to the concept
 ---
 
-## What are some of the first mover advantages for me? 
-
-
-
-## I already have a bank account, what can Trustlines do for me? 
-
-
 ## How can Trustlines be used for local circular economies?
 
 Local currencies specific to a community, offers a way to keep money circulating and increases the economic activity within the realm of the community. This is contrary to pumping international homogeneous currencies into an area, which tends to flow straight back to the source, without making any sustainable economic community impact.
