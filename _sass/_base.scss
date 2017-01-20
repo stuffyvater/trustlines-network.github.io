@@ -275,7 +275,7 @@ header {
         .header-content-inner {
           @media all and (max-width: 550px) { /* screen size until 550px */
             h1 {
-                font-weight: 700;
+                font-weight: 200;
                 text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
@@ -289,7 +289,7 @@ header {
                 font-size: 1em;  /*1x default size */
             }
           }
-          @media (min-width: 550px) { 
+          @media (min-width: 550px) {
             hr {
               margin: 30px auto;
               max-width: 250px;
