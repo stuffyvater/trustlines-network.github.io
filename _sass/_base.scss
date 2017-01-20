@@ -139,15 +139,15 @@ aside {
 // Navigation
 
 .navbar{
-  min-height:70px; //change to desired height
+  min-height:5px; //change to desired height
 }
 
 .navbar-collapse{
-  min-height:70px; //change to desired height
+  min-height:5px; //change to desired height
 }
 
 .navbar-right{
-  min-height:70px; //change to desired height
+  min-height:5px; //change to desired height
 }
 
 
@@ -176,7 +176,7 @@ aside {
             > a:focus {
                 text-transform: uppercase;
                 font-weight: 700;
-                font-size: 20px;
+                font-size: 16px;
                 color: $theme-dark;
                 &:hover {
                     color: $theme-primary;
@@ -225,16 +225,16 @@ aside {
                 }
             }
             .nav > li {
-                height: 70px;
+                height: 40px;
             }
             .nav > li > a,
             .nav > li > a:focus {
                 color: $theme-dark;
-                height: 70px;
-                padding-top: 25px;
-                padding-right: 20px;
+                height: 40px;
+                padding-top: 15px !important;
+                padding-right: 30px;
                 padding-left: 10px;
-                font-size: 20px;
+                font-size: 16px;
                 &:hover {
                     color: $theme-primary;
                 }
