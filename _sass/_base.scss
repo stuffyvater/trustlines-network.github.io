@@ -257,9 +257,15 @@ header {
     text-align: center;
     color: white;
     .header-img {
-        max-width: 80%;
+      @media all and (max-width: 550px) {
         height: auto;
         width: auto;
+      }
+      @media all and (max-width: 4500px) {
+        max-width: 60%;
+        height: auto;
+        width: auto;
+      }
     }
     .header-content {
         position: relative;
@@ -267,6 +273,7 @@ header {
         padding: 100px 15px 100px;
         width: 100%;
         .header-content-inner {
+          @media all and (max-width: 550px) { /* screen size until 550px */
             h1 {
                 font-weight: 700;
                 text-transform: uppercase;
@@ -279,10 +286,14 @@ header {
                 margin-top: 0;
                 margin-bottom: 0;
                 line-height:1.5;
+                font-size: 1em;  /*1x default size */
             }
+          }
+          @media (min-width: 550px) { 
             hr {
-                margin: 30px auto;
-                max-width: 250px;
+              margin: 30px auto;
+              max-width: 250px;
+            }
             }
             p {
                 font-weight: 300;
@@ -292,6 +303,11 @@ header {
             }
         }
     }
+    //@media (big)
+    //with all ...
+    //@media small
+    //different pic
+
     @media (min-width: 200px) {
         min-height: 100%;
         background-size: cover !important;
