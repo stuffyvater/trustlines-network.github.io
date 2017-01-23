@@ -80,12 +80,18 @@ p {
     @media (min-width: 200px) {
         //min-height: 100%;
         background-size: cover !important;
+        -webkit-background-size: cover !important;
+        -moz-background-size: cover !important;
+        -o-background-size: cover !important;
         background: $header-image-path-2k2 no-repeat top center fixed;
 
     }
     @media (min-width: 2048px) {
         //min-height: 100%;
         background-size: cover !important;
+        -webkit-background-size: cover !important;
+        -moz-background-size: cover !important;
+        -o-background-size: cover !important;
         background: $header-image-path-4k2 no-repeat center center fixed;
     }
 }
@@ -101,10 +107,16 @@ p {
     @media (min-width: 200px) {
         //min-height: 100%;
         background-size: cover !important;
+        -webkit-background-size: cover !important;
+        -moz-background-size: cover !important;
+        -o-background-size: cover !important;
         background: $header-image-path-2k3 no-repeat top center fixed;
     @media (min-width: 2048px) {
             //min-height: 100%;
             background-size: cover !important;
+            -webkit-background-size: cover !important;
+            -moz-background-size: cover !important;
+            -o-background-size: cover !important;
             background: $header-image-path-4k3 no-repeat bottom center fixed;
         }
     }
@@ -282,11 +294,11 @@ header {
             }
             h3,
             h2 {
-                font-weight: 800;
+                font-weight: 400 !important;
                 margin-top: 0;
                 margin-bottom: 0;
                 line-height:1.5;
-                font-size: 1em;  /*1x default size */
+                font-size: 1.4em !important;  /*1x default size */
             }
           }
           @media (min-width: 550px) {
@@ -311,6 +323,9 @@ header {
     @media (min-width: 200px) {
         min-height: 100%;
         background-size: cover !important;
+        -webkit-background-size: cover !important;
+        -moz-background-size: cover !important;
+        -o-background-size: cover !important;
         background: $header-image-path-2k1 no-repeat top center fixed;
         .header-content {
             position: absolute;
@@ -335,6 +350,9 @@ header {
     @media (min-width: 2048px) {
         //min-height: 100%;
         background-size: cover !important;
+        -webkit-background-size: cover !important;
+        -moz-background-size: cover !important;
+        -o-background-size: cover !important;
         background: $header-image-path-4k1 no-repeat top center fixed;
 
     }
