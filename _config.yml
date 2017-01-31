@@ -1,16 +1,24 @@
 # Site settings
-title: truslines.network
+title: trustlines.network
 email:
-description: > # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog/
+description: "people powered money"
+baseurl: "http://trustlines.network/" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
+author: brainbot technologies AG
 
 twitter_username: Trustlines_Net
-slack_invite_url:
+slack_invite_url: http://trustlines-network-slackinvite.herokuapp.com/
 github_username: trustlines-network
 facebook_username: Trustlines.Network
 subreddit_name: Trustlines
 medium_name: Trustlines
+
+gems:
+  - jekyll-seo-tag
+
+logo: /img/Head-LOGO.svg
+
+
 
 collections:
   - faq
