@@ -2,12 +2,12 @@
 title: trustlines.network
 email:
 description: "the global platform enabling permissionless mobile payments based on people powered money"
-baseurl: "http://trustlines.network/" # the subpath of your site, e.g. /blog/
+baseurl: "http://trustlines.network" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 author: brainbot technologies AG
 
 twitter_username: Trustlines_Net
-slack_invite_url: http://trustlines-network-slackinvite.herokuapp.com/
+slack_invite_url: http://trustlines-network-slackinvite.herokuapp.com
 github_username: trustlines-network
 facebook_username: Trustlines.Network
 subreddit_name: Trustlines
