@@ -16,15 +16,15 @@ medium_name: Trustlines
 gems:
   - jekyll-seo-tag
 
-logo: /img/logo.png
+logo: http://trustlines.network/img/logo.png
 google_site_verification: googlea255aea984802e8e
-image: /img/logo.png
+image: http://trustlines.network/img/logo.png
 
 defaults:
   - scope:
       path: ""
     values:
-      image: /img/logo.png
+      image: http://trustlines.network/img/logo.png
 
 collections:
   - faq
