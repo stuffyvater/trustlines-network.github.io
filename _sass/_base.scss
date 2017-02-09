@@ -507,6 +507,24 @@ header {
     }
 }
 
+#bblink
+{
+     background: url('../img/bblogogrey.png');
+     float: left;
+     padding-right: 10px !important;
+     height: 62px;
+     width: 62px;
+     display: block;
+}
+
+#bblink:hover
+{
+    background: url('../img/bblogo.png');
+    padding-right: 10px;
+    height: 62px;
+    width: 62px;
+}
+
 // Extras
 // -- Highlight Color Customization
 ::-moz-selection {
