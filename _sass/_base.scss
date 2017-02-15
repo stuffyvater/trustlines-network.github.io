@@ -223,7 +223,7 @@ aside {
     }
     @media (min-width: 768px) {
         background-color: transparent;
-        border-color: rgba(white, .3);
+        border-color: rgba(white, .001);
         .navbar-header .navbar-brand {
             color: rgba(white, .7);
             &:hover,
@@ -234,12 +234,17 @@ aside {
         .nav > li > a,
         .nav > li > a:focus {
             color: rgba(white, .7);
+            height: 40px !important;
+            padding-top: 15px !important;
+            padding-right: 20px !important;
+            padding-left: 10px !important;
+            font-size: 16px !important;
             &:hover {
                 color: white;
             }
         }
         //remove `affix-top` to change to transparent behaviour
-        &.affix-top,
+        //&.affix-top,
         &.affix {
             background-color: white;
             border-color: rgba($theme-dark, .5);
@@ -313,7 +318,7 @@ header {
                 margin-top: 0;
                 margin-bottom: 0;
                 line-height:1.5;
-                font-size: 1.4em !important;  /*1x default size */
+                font-size: 1.4em !important;  /*1.4x default size */
             }
           }
           @media (min-width: 550px) {
