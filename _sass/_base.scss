@@ -233,14 +233,14 @@ aside {
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(white, .7);
+            color: rgba(#e0e0e0, .7);
             height: 40px !important;
             padding-top: 15px !important;
             padding-right: 20px !important;
             padding-left: 10px !important;
             font-size: 16px !important;
             &:hover {
-                color: white;
+                color: #bcbcbc;
             }
         }
         //remove `affix-top` to change to transparent behaviour
