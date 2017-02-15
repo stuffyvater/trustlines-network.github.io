@@ -14,7 +14,7 @@ Made using Jekyll Pages
 ## To change the content of the page:
 
 
-#### "What is Truslines":
+#### "What is Trustlines":
 
 has to be edited directly in the html-file: `_includes/introduction.html`
 
