@@ -1,142 +1,12 @@
-{% assign categories = "Introduction to the concept" | split: ", " %}
-{% for category in categories %}
-<section {% cycle '', 'class="bg-dark"' %} id="main-text">
-<!--Background image: "Shipping Superhighways" Landsat imagery courtesy of NASA Goddard Space Flight Center and U.S. Geological Survey -->
-  <div class="container ">
-  <div class="col-lg-12 text-center">
-  <!--  <h2> {{ category }} </h2> -->
-        <h2> Introduction </h2>
-    <hr class="dark">
-  </div>
-  </div>
-  <div class="container">
-    {% for faq in site.faq %}
-    {% if category == faq.category %}
-    <div class="col-lg-8 col-lg-offset-2 text-left">
-      <div id="accordion" role="tablist" aria-multiselectable="true">
-
-        <div class="card">
-          <div class="card-header" role="tab" id="headingOne">
-            <h5 class="mb-0">
-              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                <h2>Why People Powered Money?</h2>
-              </a>
-            </h5>
-          </div>
-          <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
-            <div class="padding" style="padding-bottom: 1px; background-color:#FFFFFF">
-            <div class="card-block">
-              <p>People Powered Money basically means complementary currencies, which are currencies supplementing the legal tender issued and controlled by formal central entities such as commercial or central banks.</p>
-
-              <p>People Powered Money has benefits for individuals, local communities, businesses and the economy as a whole. Please see greater implications to see an elaboration of some of these benefits.</p>
-
-              <p>We believe People Powered Money fits particularly well in our context because trustlines money in fact is issued in a decentralised way and informally collateralised by people's interpersonal relations of trust. This means people indeed have a choice whether they want to support a given currency or not.</p>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" role="tab" id="headingTwo">
-            <h5 class="mb-0">
-              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                <h2>What does IOU mean?</h2>
-              </a>
-            </h5>
-          </div>
-          <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-            <div class="padding" style="padding-bottom: 1px; background-color:#FFFFFF" >
-            <div class="card-block">
-              <p>An IOU (I owe you) is a promise to pay whatever account measure has been agreed upon, back at a later point in time. In the Trustlines Network, we refer to IOU's within a specific currency network as Trustlines Money. These can be denominated in a real world currency, a commodity, a crypto token or any other unit of account users may agree upon.</p>
-            </div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" role="tab" id="headingThree">
-            <h5 class="mb-0">
-              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                <h2>What is a creditline?</h2>
-              </a>
-            </h5>
-          </div>
-          <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
-            <div class="padding" style="padding-bottom: 1px; background-color:#FFFFFF">
-            <div class="card-block">
-              <p>A creditline is set up between two trusting entities (e.g. friends), allowing one party to be indebted to the other.</p>
-
-              <p>When setting up a creditline in the trustlines network, the users sign an agreement on the Ethereum blockchain, which specifies 'in what measure and how much' the creditor allows the debitor to be indebted with, of which the debtor also signs he is obligated to pay off the debt?</p>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" role="tab" id="headingFour">
-            <h5 class="mb-0">
-              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                <h2>How does a trustline work?</h2>
-              </a>
-            </h5>
-          </div>
-          <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
-            <div class="padding" style="padding-bottom: 1px; background-color:#FFFFFF">
-            <div class="card-block">
-              <p>When both parties have provided each other with a credit line in the same type of trustlines money (e.g. Euros) it is a bilateral agreement and is then called a trustline. The beauty of having several existing trustlines within a currency network is the ability to facilitate cheap, secure and fast transactions routing through a chain of trustlines existing between friends-of-friends-of-friends.</p>
-
-              <p>In essence this enables everyone to issue currencies to make global payments through ones interpersonal trusted social network.</p>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" role="tab" id="headingFive">
-            <h5 class="mb-0">
-              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                <h2>Why several currency networks?</h2>
-              </a>
-            </h5>
-          </div>
-          <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive">
-            <div class="padding" style="padding-bottom: 1px; background-color:#FFFFFF">
-            <div class="card-block">
-              <p>The possibility to participate in several currency networks makes a user capable of benefiting from both local resilient and global interconnected networks. One user can for example decide to set up a currency network for a local 'circular economy' network that has inbuilt demurrage, a mutual-credit element, and does not allow for interests.</p>
-
-              <p>The trustlines network supports a variety of ways of customising currency networks, of which there are still many to be explored. The platform moreover supports ERC20 tokens.Trustline money in a default currency network can be exchanged for ETH and vice versa on an on-chain exchange. Therefore one can always tell what the value of trustline money is compared to other currencies.</p>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" role="tab" id="headingSix">
-            <h5 class="mb-0">
-              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                <h2>Can I create money out of nothing?</h2>
-              </a>
-            </h5>
-          </div>
-          <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix">
-            <div class="padding" style="padding-bottom: 1px; background-color:#FFFFFF">
-            <div class="card-block">
-              <p>The short answer is yes.</p>
-
-              <p>Similar to a fractional reserve commercial bank, you are able to create money, symbolising future promises out of nothing. This does however far from guarantee somebody will accept these promises. The money you create is only as much worth as the value your trustlines connections have decided to trust you with.</p>
-
-              <p>When individuals issue credit they are, contrary to sales employees in banks, personally liable. Not only will friends also be more understanding if you miss a payment, they probably also know your spending habits a lot better than banks. We believe this incentivizes a higher degree of financial responsibility.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-      {% endif %}
-    {% endfor %}
-  </div>
-  </div>
-  </div>
-    </section>
-  {% endfor %}
-
   {% assign categories = "Introduction to the concept" | split: ", " %}
   {% for category in categories %}
-  <section class="bg-image2" id="main-text">
+  <div class="header-content">
+      <div class="header-content-inner">
+  <section class="bg-image" id="main-text">
 <div class="container ">
 <div class="col-lg-12 text-center">
 <!--  <h2> {{ category }} </h2> -->
-      <h2> Greater implications </h2>
+      <h2> General </h2>
   <hr class="dark">
 </div>
 </div>
@@ -145,54 +15,164 @@
   {% if category == faq.category %}
   <div class="col-lg-8 col-lg-offset-2 text-left">
     <div id="accordion" role="tablist" aria-multiselectable="true">
-  <!--    <div class="card">
+      <div class="card">
         <div class="card-header" role="tab" id="headingOne">
           <h5 class="mb-0">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              <h2>Why use Trustlines instead of regular money?</h2>
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              <h2>What problems are you solving?</h2>
             </a>
           </h5>
         </div>
         <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
-          <div class="padding" style="padding-bottom: 1px; background-color:#FFFFFF">
+          <div class="padding" style="padding-bottom: 1px; padding-top: 1px">
           <div class="card-block">
-            <p>
-            Asking this question, you properly already have access to a bank account, credit card and/or mobile payments.
-            Complementing your regular financial channels with the Trustlines Network offers you:
-            </p>
-            <p>
-              <ul>
-                <li>            Cheaper, secure and faster global transactions
-                <li>            The easiest gateway to virtual complementary currencies
-                <li>            The power to decide who you want to be liable to
-              </ul>
-            </p>
-            <p>
-              In short, you would prefer to take control by retaining the benefits of acting as a bank.
-              You would also like to decide yourself who you are comfortable being liable to you,
-              and who you would like to be liable to.
-            </p>
+            <h4>Financial services for the Unbanked</h4>
+                <p>There are more than 1 billion so called <a href="https://en.wikipedia.org/wiki/Unbanked">unbanked</a> people, which don't have access to financial services.
+                The reason seems to be, that banks can not make a profit when giving accounts to the currently unbanked.
+                The Trustlines Network can help here, as it provides  the fundamental banking services of storing value and
+                making payments to anyone with a smart phone. No need for an ID, initial deposit or a bank account.</p>
+
+            <h4>P2P Fiat to Crypto Exchange</h4>
+                <p>Centralized crypto exchanges, which require users to go through a KYC process, are prone to be hacked and
+                lose their users fund. Further, one needs a bank account to interact with crypto token.
+                The Trustlines Network allows users to sell and buy crypto tokens in a decentralized P2P fashion,
+                without the access barriers of dealing with a central exchange.</p>
+
+            <h4>Community Currencies</h4>
+                <p>Community currencies based on transfers of IOU’s
+                <a href="https://ijccr.files.wordpress.com/2012/05/ijccr-vol-10-2006-1-ardron-and-lietaer.pdf">typically only works locally</a>,
+                as very few people are comfortable with accepting an IOU without knowing the credit-worthiness of the issuer.
+                In the Trustlines Network a payment is transferred in a chain of friends-of-friends, which means the IOU is
+                self-guaranteed by the friend providing the last link in the chain. This allows for global payments,
+                as a receiver will only be able to accept payments from a friend who is considered creditworthy.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="card">
+        <div class="card-header" role="tab" id="headingTwo">
+          <h5 class="mb-0">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <h2>Why is blockchain a good fit for the Trustlines Network?</h2>
+            </a>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="padding" style="padding-bottom: 1px" >
+          <div class="card-block">
+            <p>Our design decision was to build the Trustlines Network as a decentralized P2P system.
+              A blockchain is a natural fit for a P2P money system, because it is good at tamper proof Accounting,
+              provides censorship resistance and allows for decentralized governance of the system.
+              The Ethereum platform enables the Trustlines Network to use smart contracts that are fully interoperable with other Dapps,
+              providing <a href="https://www.reddit.com/r/ethtrader/comments/43fm3w/the_core_value_proposition_of_ethereum_is_synergy/">synergy</a> within an open and active environment.</p>
           </div>
           </div>
         </div>
       </div>
-    </div> -->
+      <div class="card">
+        <div class="card-header" role="tab" id="headingThree">
+          <h5 class="mb-0">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <h2>Why is it a problem that almost all money in the world is created by banks?</h2>
+            </a>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="padding" style="padding-bottom: 1px">
+          <div class="card-block">
+            <p>The short answer is that having only one type of money (bank-debt money, created with interest) is
+              an inbuilt <a href="http://sapiens.revues.org/747#ftn18">systemic issue</a> threatening the sustainability of the global economic system.</p>
+
+            <p>This is far from a hypothetical threat; in the period between 1970-2011 the
+              <a href="http://www.worldbank.org/en/publication/gfdr/background/banking-crisis">World Bank</a> have identified
+              no less than 147 systemic banking crises and 218 monetary crises. <a href="http://wtf.tw/ref/ulanowicz.pdf">Scientists</a> have found the sustainability
+              of a complex flow system can be defined as the optimal balance between efficiency and resilience of its network.
+              In general, a system’s resilience is enhanced by more diversity and more connections, because there are more channels
+              to fall back on in times of trouble or change. Efficiency, on the other hand, increases through streamlining,
+              which usually means reducing diversity and connectivity. With an inadequate emphasis on efficiency,
+              the global economic system needs solutions that introduce greater resilience through diversity.</p>
+
+            <h4>What is People Powered Money?</h4>
+            <p>People Powered Money is a catch phrase for complementary currencies, governed and issued between individuals
+            and businesses instead of banks and governments. The fundamental idea of People Powered Money is to connect underused assets
+            directly to unmet needs. To learn more on the umbrella of stunning complementary currency initiatives,
+            we recommend you take a look at the EU funded publication <a href="http://communitycurrenciesinaction.eu/peoplepoweredmoney/">People Powered Money</a>.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" role="tab" id="headingFour">
+          <h5 class="mb-0">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              <h2>Can People Powered Money replace bank created money?</h2>
+            </a>
+          </h5>
+        </div>
+        <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+          <div class="padding" style="padding-bottom: 1px">
+          <div class="card-block">
+            <p>The problem of today is having only one dominant type of currency, so completely replacing one monetary monopoly
+              with another will <a href="https://books.google.de/books?id=04uFDAAAQBAJ&pg=PA25&lpg=PA25&dq=176+monetary+crises+in+the+25+years+since+President+Nixon&source=bl&ots=_1lg8O9gEX&sig=1G8oSwfXbNbY2i1Eid8_KNL94t8&hl=da&sa=X&ved=0ahUKEwi80rKZ0IXSAhVNsBQKHd4JCk4Q6AEIKDAB#v=onepage&q=176%20monetary%20crises%20in%20the%2025%20years%20since%20President%20Nixon&f=false">not lead</a> to a more resilient economic system. To achieve higher resilience, the economy needs monetary democracy
+               - a diverse ecosystem of currency systems, so multiple and more diverse agents and channels of monetary links and exchanges can emerge.
+                That is why People Powered Money is one out of many currency innovations designed to operate in parallel to conventional national money.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" role="tab" id="headingFive">
+          <h5 class="mb-0">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              <h2>Is it required to have collateral in for example conventional national money?</h2>
+            </a>
+          </h5>
+        </div>
+        <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive">
+          <div class="padding" style="padding-bottom: 1px">
+          <div class="card-block">
+            <p>No, in the Trustlines Network, there are not any general collateral requirements applicable for all currency networks.
+              While a network for e.g. businesses or frequent traders might be configured for participants to pledge specific assets
+              in order to participate - no such requirements exist within a standard network. Credit in a standard network is therefore
+              bound to be issued in reasonable amounts only to real world trusted connections. This entails real world trusted connections
+               need to have a fair insight into the economic sustainability of the other person, as well as have agreed on how an eventual
+                settlement might take place.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" role="tab" id="headingSix">
+          <h5 class="mb-0">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              <h2>How does settlement work?</h2>
+            </a>
+          </h5>
+        </div>
+        <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix">
+          <div class="padding" style="padding-bottom: 1px">
+          <div class="card-block">
+            <p>The <a href="http://trustlines.network/whitepaper_v03.pdf">imbalance fee</a> in the Trustlines Network incentivises debt cancellation,
+              which means the system will seek to route the payments through a path of connections in order to reduce
+              imbalances and thereby settle debt relationships. If settling in real world cash, services or goods is important to you,
+              you should make this clear to your connections, so they will not be surprised when you ask to settle  from time to time.
+              To settle with a user is achieved by making a trustlines payment equal to the value received in the real world.</p>
+          </div>
+        </div>
+      </div>
+      </div>
     <div class="card">
       <div class="card-header" role="tab" id="headingSeven">
         <h5 class="mb-0">
           <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-            <h2>How can Trustlines help the unbanked?</h2>
+            <h2>How can I leave the system?</h2>
           </a>
         </h5>
       </div>
       <div id="collapseSeven" class="collapse" role="tabpanel" aria-labelledby="headingSeven">
         <div class="padding" style="padding-bottom: 1px">
         <div class="card-block">
-          <p>While the unbanked are increasingly getting smartphones, they still cannot get financial services because both mobile applications and traditional banks require government ID/cash deposits or credit cards to work. The Trustlines Network enables the unbanked access to payments without the needing any of that this is made possible by credit issuance through the social graph of every user.</p>
-
-          <p>The Trustlines Network provides the unbanked the means for payment, exchange, savings, loaning as well as access to future financial empowering tools. Interpersonal relations often governs credit issuance in many unbanked societies and the Trustlines Network is based on the same simple and proven mechanisms found in for example, the Hawala system.</p>
-
-          <p>The big difference to these current informal offerings is the automatic accounting system, mutually agreed upon conditions, as well as the tamper-proof documentation of who owes what to whom.</p>
+          <p>To leave the system, you need to have settled all outstanding debt relationships with your trusted connections.
+            Settling with all connections at once might obviously take a bit of a time, in a similar way as it also takes
+            time to change your regular bank provider. A user who wishes to leave the system, would save time by making
+            payments in order to leverage the debt cancellation mechanism to reduce outstanding debts.</p>
         </div>
       </div>
     </div>
@@ -200,53 +180,40 @@
         <div class="card-header" role="tab" id="headingEight">
           <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-              <h2>Why is Trustlines useful for local circular economies?</h2>
+              <h2>What does a default in the trustlines network entail?</h2>
             </a>
           </h5>
         </div>
         <div id="collapseEight" class="collapse" role="tabpanel" aria-labelledby="headingEight">
           <div class="padding" style="padding-bottom: 1px" >
           <div class="card-block">
-            <p>Local currencies, specific to a community, offer a way to keep money circulating increasing the economic activity within the realm of the community. This is contrary to pumping 'international homogeneous' currencies into an area, which tends to flow straight back to the source, without making any sustainable economic community impact.</p>
-
-            <p>At the same time, communities tend to have a demand for goods or services provided by outside suppliers, which means they also need to be able to pay in currencies that they trust and accept.</p>
-
-            <p>This dilemma requires that communities use more than one currency which is exactly what the Trustlines Network enables. This means a community can both conduct circular trade within a customised local and resilient currency while also being able to participate in interconnected currency networks.</p>
+            <p>A default in the Trustlines Network, means a user is not able to honour an agreement made to repay an obligation to one or
+              several of the user’s trustline connections. It will have various consequences depending on the context, as is also the
+              case in the event of a <a href="http://www.investopedia.com/terms/d/default2.asp">default</a> in a traditional legal obligation. In its purest form, a default in a standard trustlines
+              currency network is to be dealt with by the users themselves. In this way not being different than the recourse friends
+              have when they from time to time lend each other traditional money. There are, however, more formalized recourse options
+              possible within a currency network, which depending on governance hooks could include embedding pledging of assets,
+              mutual-credit mechanisms, default-insurance or specified promissory note agreements.</p>
           </div>
           </div>
         </div>
       </div>
-    <!--  <div class="card">
-        <div class="card-header" role="tab" id="headingThree">
-          <h5 class="mb-0">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              <h2>Why not just stick with regular bank issued money?</h2>
-            </a>
-          </h5>
-        </div>
-        <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
-          <div class="padding" style="padding-bottom: 1px; background-color:#FFFFFF">
-          <div class="card-block">
-            <p>When individuals issue credit, they are contrary to sales employees in banks, personally liable. Not only will friends also be more understanding if you miss a payment, they properly also know your spending habits a lot better than banks. We believe this incentives a higher degree of financial responsibility.</p>
-
-            <p>In fact when you deal with inflexible, expensive banks who gamble with and profit from, storing your virtual fiat money - do you really have any idea who you are in the same boat with?</p>
-          </div>
-        </div>
-      </div>-->
       <div class="card">
         <div class="card-header" role="tab" id="headingNine">
           <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-              <h2>How can businesses benefit from trustlines?</h2>
+              <h2>With no governance such as central bank or politicians, how can a monetary policy be enforced?</h2>
             </a>
           </h5>
         </div>
         <div id="collapseNine" class="collapse" role="tabpanel" aria-labelledby="headingNine">
           <div class="padding" style="padding-bottom: 1px">
           <div class="card-block">
-            <p>Setting up a business currency network can provide businesses with interest-free liquidity to enhance the mutually beneficial exchange of goods and services. Businesses can therefore reduce the reliance on legal tender and expensive banking services and only spend legal tender for operational costs outside of the business network.</p>
-
-            <p>In periods of economic recession such business networks can indeed also provide a counter-cyclical stabilisation mechanism, insofar that they guarantee a minimum of economic activity in an event of low fiat liquidity in circulation.</p>
+            <p>The Ethereum blockchain allows to customize governance written in smart-contract for individual trustlines or for
+              currency networks as a whole. The basic idea is to give every user the right to choose which monetary dynamics they favor,
+              based on full transparency on the monetary policy within a currency network. Governance hooks includes to specify
+              registration process, credit line limits, settlement limits, interest, demurrage, as well as specification of collateral
+              or collaborative backing.</p>
           </div>
         </div>
       </div>
@@ -254,20 +221,18 @@
         <div class="card-header" role="tab" id="headingTen">
           <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-              <h2>How is the concept different from a LETSystem?</h2>
+              <h2>How is the Trustlines Network different from Ripple?</h2>
             </a>
           </h5>
         </div>
         <div id="collapseTen" class="collapse" role="tabpanel" aria-labelledby="headingTen">
           <div class="padding" style="padding-bottom: 1px">
           <div class="card-block">
-            <p>The Trustlines Network can be viewed as an interconnected global network of LETSystems in which each subsystem is managed by a single individual.</p>
-
-            <p>A classic LETSystem is centralized and only tracks obligations to and from central intermediaries in a mutual-credit fashion. In effect, this means if someone defaults, the loss of credit is shared with everyone, thus arguably only making it suitable for small communities.</p>
-
-            <p>With Trustlines, obligations are dedicated to specific individuals who agreed to trust you, holding you personally accountable. We believe personal trust relations based on individual reliability provides a stronger incentive for individuals to honor their obligations than in a mutual-credit based system.</p>
-
-            <p>In addition comes the benefit of automatic accounting, tamper-proof documentation as well as the option to enable currency network interoperability.</p>
+            <p>The original <a href="http://archive.ripple-project.org/decentralizedcurrency.pdf">Ripple Pay</a> idea, is indeed similar to the Trustlines Network and actually inspired it.
+              The core differences are that the Trustlines Network has a decentralized architecture, is interoperable with other
+              Ethereum dApps and comes with a mobile application.
+              The Ripple we know today is a platform positioned to serve as an infrastructure for interbank payments
+              and is not comparable to the Trustlines Network.</p>
           </div>
         </div>
       </div>
@@ -287,7 +252,7 @@
           </div>
         </div>
       </div>
-
+</div></div>
     <!--  <div class="card">
         <div class="card-header" role="tab" id="headingSeven">
           <h5 class="mb-0">
@@ -297,7 +262,7 @@
           </h5>
         </div>
         <div id="collapseSeven" class="collapse" role="tabpanel" aria-labelledby="headingSeven">
-          <div class="padding" style="padding-bottom: 1px; background-color:#FFFFFF">
+          <div class="padding" style="padding-bottom: 1px">
           <div class="card-block">
             <p>Trustlines currency networks can be customized according to how a community belief is the best way to deal with inflation.</p>
 
@@ -314,7 +279,7 @@
           </h5>
         </div>
         <div id="collapseEight" class="collapse" role="tabpanel" aria-labelledby="headingEight">
-          <div class="padding" style="padding-bottom: 1px; background-color:#FFFFFF">
+          <div class="padding" style="padding-bottom: 1px">
           <div class="card-block">
             <p>First of all we are big fans of the mysterious magic Unicorn.</p>
 
