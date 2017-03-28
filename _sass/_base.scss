@@ -514,20 +514,22 @@ header {
 
 #bblink
 {
-     background: url('../img/bblogogrey4.png');
+     background: url('../img/bblogogrey.png');
      float: left;
      padding-right: 10px !important;
-     height: 56px;
-     width: 300px;
+     //padding-top: 20px !important;
+     height: 28px;
+     width: 150px;
      display: block;
 }
 
 #bblink:hover
 {
-    background: url('../img/bblogo4.png');
+    background: url('../img/bblogo.png');
     padding-right: 10px;
-    height: 56px;
-    width: 300px;
+    //padding-top: 10px !important;
+    height: 28px;
+    width: 150px;
 }
 
 // Extras
